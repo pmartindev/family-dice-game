@@ -1,0 +1,4 @@
+os: linux
+
+script: 
+  - "python main.py"
