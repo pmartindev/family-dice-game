@@ -11,7 +11,7 @@ def rollDice(rolls = []):
 def checkScore(diceSet):
     if len(diceSet) < DICE_SET_SIZE:
         print("Invalid array. Length is not large enough.")
-        exit()
+        exit(1)
 
     sorted(diceSet, reverse = True)
 
