@@ -1,6 +1,6 @@
-
+from modules import helpers
 def main():
-    print("Hello World!")
+    print(helpers.rollDice())
 
 if __name__ == "__main__":
     main()
